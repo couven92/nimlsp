@@ -151,10 +151,10 @@ Then set it up to use `nimlsp` for Nim files:
    endif
 
    let g:lsp_log_verbose = 1
-   let g:lsp_log_file = expand('/tmp/vim-lsp.log')
+   let g:lsp_log_file = expand('$TEMP/vim-lsp.log')
 
    " for asyncomplete.vim log
-   let g:asyncomplete_log_file = expand('/tmp/asyncomplete.log')
+   let g:asyncomplete_log_file = expand('$TEMP/asyncomplete.log')
 
    let g:asyncomplete_auto_popup = 0
 
